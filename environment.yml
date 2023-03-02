@@ -1,0 +1,7 @@
+name: datapipes
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  -
