@@ -54,4 +54,3 @@ convention = "google"
 
 [ruff.per-file-ignores]
 "__init__.py" = ["F401", "E402"]
-
