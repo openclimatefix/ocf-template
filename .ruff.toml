@@ -44,13 +44,13 @@ fix = true
 format = "github"
 ignore-init-module-imports = true
 
-[ruff.mccabe]
+[mccabe]
 # Unlike Flake8, default to a complexity level of 10.
 max-complexity = 10
 
-[ruff.pydocstyle]
+[pydocstyle]
 # Use Google-style docstrings.
 convention = "google"
 
-[ruff.per-file-ignores]
+[per-file-ignores]
 "__init__.py" = ["F401", "E402"]
