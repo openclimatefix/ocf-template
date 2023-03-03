@@ -1,7 +1,7 @@
-name: datapipes
+name: ocf_template
 channels:
   - pytorch
   - conda-forge
   - defaults
 dependencies:
-  -
+  - pip
