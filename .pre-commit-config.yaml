@@ -1,9 +1,6 @@
 default_language_version:
   python: python3
 
-ci:
-  skip: [pydocstyle, flake8]
-
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -17,9 +14,10 @@ repos:
   # python code formatting/linting
   - repo: https://github.com/charliermarsh/ruff-pre-commit
     # Ruff version.
-    rev: 'v0.0.253'
+    rev: "v0.0.253"
     hooks:
       - id: ruff
+        args: [--fix]
 
   # yaml formatting
   - repo: https://github.com/pre-commit/mirrors-prettier
