@@ -40,6 +40,7 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 # Assume Python 3.10.
 target-version = "py310"
 fix = false
+
 # Group violations by containing file.
 format = "github"
 ignore-init-module-imports = true
