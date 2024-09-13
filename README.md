@@ -68,7 +68,6 @@ Also, importantly, update this README!
 Simply delete `src` and `pyproject.toml`, and just use and update the README
 part of the template as required.
 
----
 
 When your project is up and running, add any relevant workflows from OCF's
 template workflows or otherwise. See
@@ -101,10 +100,11 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 ## Contributing and community
 
 - PR's are welcome! See the [OCF Organisation Repo](https://github.com/openclimatefix) for details on contributing
-- Find out more about OCF in the [Meta Repo](https://github.com/openclimatefix/ocf-meta-repo)
-- Check out the OCF blog at https://openclimatefix.org/blog for updates
-- Follow OCF on [Twitter](https://twitter.com/OpenClimateFix)
+- Find out about our other projects in the [Meta Repo](https://github.com/openclimatefix/ocf-meta-repo)
+- Check out the [OCF blog](https://openclimatefix.org/blog) for updates
+- Follow OCF on [LinkedIn](https://uk.linkedin.com/company/open-climate-fix)
 
+*Made by the [Open Climate Fix](https://openclimatefix.org) community.*
 [![OCF Logo](https://cdn.prod.website-files.com/62d92550f6774db58d441cca/6324a2038936ecda71599a8b_OCF_Logo_black_trans.png)](https://openclimatefix.org)
 
 
