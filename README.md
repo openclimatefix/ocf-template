@@ -106,4 +106,3 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 
 *Made by the [Open Climate Fix](https://openclimatefix.org) community.*
 [![OCF Logo](https://cdn.prod.website-files.com/62d92550f6774db58d441cca/6324a2038936ecda71599a8b_OCF_Logo_black_trans.png)](https://openclimatefix.org)
-
