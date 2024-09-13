@@ -94,13 +94,16 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 > The development section might be contained within the documentation, in which case
 > remove the *Development* section, and instead specify links to the relevant parts
 > of the documentation in the *Documentation* section.
-
---- 
+ 
 
 ## Contributing and community
 
-- PR's are welcome! See the [OCF Organisation Repo](https://github.com/openclimatefix) for details on contributing
-- Find out about our other projects in the [Meta Repo](https://github.com/openclimatefix/ocf-meta-repo)
+[![ease of contribution: easy](https://img.shields.io/badge/ease%20of%20contribution:%20easy-32bd50)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories) 
+[//]: # ([![ease of contribution: medium](https://img.shields.io/badge/ease%20of%20contribution:%20medium-f4900c)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories))
+[//]: # ([![ease of contribution: hard](https://img.shields.io/badge/ease%20of%20contribution:%20hard-bb2629)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories))
+
+- PR's are welcome! See the [Organisation Profile](https://github.com/openclimatefix) for details on contributing
+- Find out about our other projects in the [OCF Meta Repo](https://github.com/openclimatefix/ocf-meta-repo)
 - Check out the [OCF blog](https://openclimatefix.org/blog) for updates
 - Follow OCF on [LinkedIn](https://uk.linkedin.com/company/open-climate-fix)
 
