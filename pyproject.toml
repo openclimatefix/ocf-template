@@ -120,5 +120,3 @@ theme = "classic"
 privacy = [
     "HIDDEN:**.test_*",
 ]
-
-
