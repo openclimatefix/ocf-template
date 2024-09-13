@@ -95,6 +95,7 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 > remove the *Development* section, and instead specify links to the relevant parts
 > of the documentation in the *Documentation* section.
 
+--- 
 
 ## Contributing and community
 
@@ -103,8 +104,8 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 - Check out the [OCF blog](https://openclimatefix.org/blog) for updates
 - Follow OCF on [LinkedIn](https://uk.linkedin.com/company/open-climate-fix)
 
---- 
+
+*Made by the [Open Climate Fix](https://github.com/orgs/openclimatefix/people) community.*
 
 [![OCF Logo](https://cdn.prod.website-files.com/62d92550f6774db58d441cca/6324a2038936ecda71599a8b_OCF_Logo_black_trans.png)](https://openclimatefix.org)
 
-*Made by the [Open Climate Fix](https://openclimatefix.org) community.*
