@@ -55,9 +55,10 @@ Once you have installed the project into a new GitHub repository,
 
 **For a Python project:**
 
-Modify the `pyproject.toml`
-file, updating the name, description, authors, and dependencies as needed.
-Install the project in editable mode (in a new virtual environment!)
+1. Modify the `pyproject.toml` file, updating the name, description, authors,
+and dependencies as needed.
+2. Update the name of the package from `ocf_template` to your package name.
+3. Install the project in editable mode (in a new virtual environment!)
 with `pip install -e .`.
 
 Also, importantly, update this README!
@@ -94,6 +95,8 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 > The development section might be contained within the documentation, in which case
 > remove the *Development* section, and instead specify links to the relevant parts
 > of the documentation in the *Documentation* section.
+
+---
 
 ## Contributing and community
 
