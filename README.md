@@ -37,6 +37,7 @@ do the following:
 2. Select **Create a new repository**
 3. Create the new repository as desired
 
+
 ## Example usage
 
 One or two short examples of using the project to solve a problem.
@@ -63,7 +64,15 @@ Also, importantly, update this README!
 
 **For other projects:**
 
-Simply delete `src` and `pyproject.toml`, and just use the README part of the template.
+Simply delete `src` and `pyproject.toml`, and just use and update the README
+part of the template as required.
+
+---
+
+When your project is up and running, add any relevant workflows from OCF's
+template workflows or otherwise. See
+[Choosing and using a workflow template](https://docs.github.com/en/actions/writing-workflows/using-workflow-templates#choosing-and-using-a-workflow-template)
+for more details.
 
 *For more information, head to the [Documentation](#documentation).*
 
