@@ -4,10 +4,9 @@
 
 [![contributors badge](https://img.shields.io/github/contributors/openclimatefix/ocf-template?color=FFFFFF)](https://github.com/openclimatefix/ocf-template/graphs/contributors)
 [![workflows badge](https://img.shields.io/github/actions/workflow/status/openclimatefix/ocf-template/ci.yml?branch=maine&color=FFD053)](https://github.com/openclimatefix/ocf-template/actions/workflows/ci.yml)
-[![issues badge](https://img.shields.io/github/issues/openclimatefix/ocf-template?color=FFAC5F)](https://github.com/openclimatefix/ocf-template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
-[![tags badge](https://img.shields.io/github/v/tag/openclimatefix/ocf-template?include_prereleases&sort=semver&color=7BCDF3)](https://github.com/openclimatefix/ocf-template/tags)
-[![pypi badge](https://img.shields.io/pypi/v/ocf-template?&color=086788)](https://pypi.org/project/ocf-template)
-[![documentation badge](https://img.shields.io/badge/docs-latest-333333)](https://openclimatefix.github.io/ocf-template/)
+[![tags badge](https://img.shields.io/github/v/tag/openclimatefix/ocf-template?include_prereleases&sort=semver&color=FFAC5F)](https://github.com/openclimatefix/ocf-template/tags)
+[![pypi badge](https://img.shields.io/pypi/v/ocf-template?&color=07BCDF3)](https://pypi.org/project/ocf-template)
+[![documentation badge](https://img.shields.io/badge/docs-latest-38678)](https://openclimatefix.github.io/ocf-template/)
 
 This section of the README should contain a brief description of the project.
 Perhaps give a short amount of context around why it exists; the problem it solves.
@@ -101,7 +100,7 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 [![ease of contribution: easy](https://img.shields.io/badge/ease%20of%20contribution:%20easy-32bd50)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories) 
 [![ease of contribution: medium](https://img.shields.io/badge/ease%20of%20contribution:%20medium-f4900c)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
 [![ease of contribution: hard](https://img.shields.io/badge/ease%20of%20contribution:%20hard-bb2629)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
-(Remove as required)
+[![issues badge](https://img.shields.io/github/issues/openclimatefix/ocf-template?color=FFAC5F)](https://github.com/openclimatefix/ocf-template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 - PR's are welcome! See the [Organisation Profile](https://github.com/openclimatefix) for details on contributing
 - Find out about our other projects in the [OCF Meta Repo](https://github.com/openclimatefix/ocf-meta-repo)
