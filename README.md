@@ -2,11 +2,11 @@
 
 **Starting point for OCF projects**
 
-[![contributors badge](https://img.shields.io/github/contributors/openclimatefix/ocf-template?color=FFFFFF)](https://github.com/openclimatefix/ocf-template/graphs/contributors)
 [![workflows badge](https://img.shields.io/github/actions/workflow/status/openclimatefix/ocf-template/ci.yml?branch=maine&color=FFD053)](https://github.com/openclimatefix/ocf-template/actions/workflows/ci.yml)
 [![tags badge](https://img.shields.io/github/v/tag/openclimatefix/ocf-template?include_prereleases&sort=semver&color=FFAC5F)](https://github.com/openclimatefix/ocf-template/tags)
 [![pypi badge](https://img.shields.io/pypi/v/ocf-template?&color=07BCDF)](https://pypi.org/project/ocf-template)
 [![documentation badge](https://img.shields.io/badge/docs-latest-086788)](https://openclimatefix.github.io/ocf-template/)
+[![contributors badge](https://img.shields.io/github/contributors/openclimatefix/ocf-template?color=FFFFFF)](https://github.com/openclimatefix/ocf-template/graphs/contributors)
 [![ease of contribution: easy](https://img.shields.io/badge/ease%20of%20contribution:%20easy-32bd50)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories) 
 [![ease of contribution: medium](https://img.shields.io/badge/ease%20of%20contribution:%20medium-f4900c)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
 [![ease of contribution: hard](https://img.shields.io/badge/ease%20of%20contribution:%20hard-bb2629)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
