@@ -7,6 +7,9 @@
 [![tags badge](https://img.shields.io/github/v/tag/openclimatefix/ocf-template?include_prereleases&sort=semver&color=FFAC5F)](https://github.com/openclimatefix/ocf-template/tags)
 [![pypi badge](https://img.shields.io/pypi/v/ocf-template?&color=07BCDF)](https://pypi.org/project/ocf-template)
 [![documentation badge](https://img.shields.io/badge/docs-latest-086788)](https://openclimatefix.github.io/ocf-template/)
+[![ease of contribution: easy](https://img.shields.io/badge/ease%20of%20contribution:%20easy-32bd50)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories) 
+[![ease of contribution: medium](https://img.shields.io/badge/ease%20of%20contribution:%20medium-f4900c)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
+[![ease of contribution: hard](https://img.shields.io/badge/ease%20of%20contribution:%20hard-bb2629)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
 
 This section of the README should contain a brief description of the project.
 Perhaps give a short amount of context around why it exists; the problem it solves.
@@ -97,9 +100,6 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 
 ## Contributing and community
 
-[![ease of contribution: easy](https://img.shields.io/badge/ease%20of%20contribution:%20easy-32bd50)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories) 
-[![ease of contribution: medium](https://img.shields.io/badge/ease%20of%20contribution:%20medium-f4900c)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
-[![ease of contribution: hard](https://img.shields.io/badge/ease%20of%20contribution:%20hard-bb2629)](https://github.com/openclimatefix/ocf-meta-repo?tab=readme-ov-file#overview-of-ocfs-nowcasting-repositories)
 [![issues badge](https://img.shields.io/github/issues/openclimatefix/ocf-template?color=FFAC5F)](https://github.com/openclimatefix/ocf-template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 - PR's are welcome! See the [Organisation Profile](https://github.com/openclimatefix) for details on contributing
