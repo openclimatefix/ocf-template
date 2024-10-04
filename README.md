@@ -1,8 +1,8 @@
 # OCF Template
 
 **Starting point for OCF projects**
-
-[![workflows badge](https://img.shields.io/github/actions/workflow/status/openclimatefix/ocf-template/ci.yml?branch=maine&color=FFD053)](https://github.com/openclimatefix/ocf-template/actions/workflows/ci.yml)
+ 
+[![workflows badge](https://img.shields.io/github/actions/workflow/status/openclimatefix/ocf-template/ci.yml?branch=maine&color=FFD053&label=workflow)](https://github.com/openclimatefix/ocf-template/actions/workflows/ci.yml)
 [![tags badge](https://img.shields.io/github/v/tag/openclimatefix/ocf-template?include_prereleases&sort=semver&color=FFAC5F)](https://github.com/openclimatefix/ocf-template/tags)
 [![pypi badge](https://img.shields.io/pypi/v/ocf-template?&color=07BCDF)](https://pypi.org/project/ocf-template)
 [![documentation badge](https://img.shields.io/badge/docs-latest-086788)](https://openclimatefix.github.io/ocf-template/)
@@ -27,11 +27,12 @@ They might even have an idea of how it could be useful to them!
 > [OCF's .github repository](https://github.com/openclimatefix/.github)
 > for those.
 
+
 ## Installation
 
-How to install the project for *general use* - **not** for development:
-"`pip install x`", or "pull the latest checkpoint from `y`",
-not "clone the repo and run `make install`".
+How to install the project for *general use* (**not** for development), so:
+"`pip install x`", or: "pull the latest checkpoint from `y`";
+**not**: "clone the repo and run `make install`".
 For example, to "install" this template as the basis of a new repository,
 do the following:
 
@@ -78,11 +79,31 @@ for more details.
 
 *For more information, head to the [Documentation](#documentation).*
 
+
 ## Documentation
 
 Link to the project's documentation, if it exists. Also consider internal
 linking to parts of interest of the documentation, such as **Development**,
 **API**, **Configuration** and so on.
+
+
+## FAQ
+
+Any major points from github discussions, or highlights from the documentation.
+If the same question is often asked, answer it in here!
+
+### Can I leave this section out?
+
+Yes, this is an optional section.
+
+### Is "How do I run the application" a valid FAQ question?
+
+No, that should be in example usage!
+
+### How should I format the FAQ section?
+
+Like this! Questions in level three headings, answers in plain text.
+
 
 ## Development
 
@@ -96,6 +117,11 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 > The development section might be contained within the documentation, in which case
 > remove the *Development* section, and instead specify links to the relevant parts
 > of the documentation in the *Documentation* section.
+
+### Running the test suite
+
+The couple of commands, and perhaps additional dependencies, to run the test suite of
+the application or service. 
  
 
 ## Contributing and community
@@ -106,6 +132,18 @@ Make sure you have the most up to date drivers for your 32 GPU array to use this
 - Find out about our other projects in the [OCF Meta Repo](https://github.com/openclimatefix/ocf-meta-repo)
 - Check out the [OCF blog](https://openclimatefix.org/blog) for updates
 - Follow OCF on [LinkedIn](https://uk.linkedin.com/company/open-climate-fix)
+
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
 
