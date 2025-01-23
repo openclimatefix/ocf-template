@@ -23,19 +23,18 @@ dependencies = [
     "numpy >= 1.23.2",
 ]
 
-[project.optional-dependencies]
-test = [
-    "unittest-xml-reporting == 3.2.0", # Used for XML test results in Actions
-]
-lint = [
+[dependency-groups]
+dev = [
+    # Testing
+    "pytest",
+    "unittest-xml-reporting",
+    # Linting and type checking
     "mypy >= 1.11.0",
     "ruff >= 0.6.4",
-]
-docs = [
-    "pydoctor >= 24.3.0",
-]
-dev = [
-    "ocf-python-project[test,lint,docs]",
+    # LSP Support
+    "python-lsp-server",
+    "pylsp-mypy",
+    "python-lsp-ruff",
 ]
 
 [project.scripts]
@@ -112,8 +111,8 @@ docstring-code-line-length = 100
 # --- DOCUMENTATION CONFIGURATION --- #
 
 [tool.pydoctor]
-add-package = ["src/nwp_consumer"]
-project-base-dir = "src/nwp_consumer"
+add-package = ["src/ocf-python-project"]
+project-base-dir = "src/ocf-python-project"
 docformat = "google"
 html-output = "docs"
 theme = "classic"
