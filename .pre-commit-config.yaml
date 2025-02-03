@@ -3,14 +3,14 @@ default_language_version:
 
 repos:
   - repo: "https://github.com/pre-commit/pre-commit-hooks"
-    rev: v4.4.0
+    rev: v5.0.0
     hooks:
       # Supported hooks: https://pre-commit.com/hooks.html
       - id: end-of-file-fixer
       - id: detect-private-key
 
   - repo: "https://github.com/astral-sh/ruff-pre-commit"
-    rev: v0.6.4
+    rev: v0.9.4
     hooks:
       # Run the linter and fix problems.
       # * Must be run before ruff-format!
