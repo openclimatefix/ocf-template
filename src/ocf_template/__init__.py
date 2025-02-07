@@ -4,6 +4,7 @@ import json
 import sys
 import os
 import loguru
+import traceback
 
 def development_formatter(record: "loguru.Record") -> str:
     """Format a log record for development."""
@@ -16,25 +17,24 @@ def development_formatter(record: "loguru.Record") -> str:
 
 def structured_formatter(record: "loguru.Record") -> str:
     """Format a log record as a structured JSON object."""
+    # TODO: Make exceptions dict-formatted when present
     record["extra"]["serialized"] = json.dumps({
         "timestamp": record["time"].strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
         "severity": record["level"].name,
         "message": record["message"],
-        "elapsed": record["elapsed"].total_seconds(),
-        "logging.googleapis.com/labels": {
-            "python_logger": record["name"],
-        },
+        "logging.googleapis.com/labels": {"python_logger": record["name"]},
         "logging.googleapis.com/sourceLocation": {
             "file": record["file"].name,
             "line": record["line"],
             "function": record["function"],
         },
-    } | record["extra"])
+        "context": record["extra"],
+    })
     return "{extra[serialized]}\n"
 
 # Define the logging formatter, removing the default one
 loguru.logger.remove(0)
-if sys.stdout.isatty():
+if not sys.stdout.isatty():
     # Simple logging for development
     loguru.logger.add(
         sys.stdout, format=development_formatter, diagnose=True,
@@ -43,7 +43,7 @@ if sys.stdout.isatty():
 else:
     # JSON logging for containers
     loguru.logger.add(
-        sys.stdout, format=structured_formatter,
+        sys.stdout, format=structured_formatter, backtrace=True,
         level=os.getenv("LOGLEVEL", "INFO").upper(),
     )
 
