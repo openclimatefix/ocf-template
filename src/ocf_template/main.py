@@ -5,7 +5,7 @@ from importlib.metadata import PackageNotFoundError, version
 from loguru import logger as log
 
 try:
-    __version__ = version("nwp-consumer")
+    __version__ = version(__package__)
 except PackageNotFoundError:
     __version__ = "v?"
 

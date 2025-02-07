@@ -40,7 +40,7 @@ dev = [
 
 [project.scripts]
 # Put entrypoints in here
-ocf-python-cli = "ocf_template.main:main"
+ocf-template-cli = "ocf_template.main:main"
 
 [project.urls]
 repository = "https://github.com/openclimatefix/ocf-python-template"
