@@ -6,7 +6,7 @@ on:
     paths-ignore: ['README.md']
 
 jobs:
-  run_non_default_branch_push_ci:
+  branch-ci:
     uses: openclimatefix/.github/.github/workflows/nondefault_branch_push_ci_python.yml@main
     secrets: inherit
     with:
