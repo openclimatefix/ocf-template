@@ -4,7 +4,6 @@ import json
 import sys
 import os
 import loguru
-import traceback
 
 def development_formatter(record: "loguru.Record") -> str:
     """Format a log record for development."""
@@ -34,7 +33,7 @@ def structured_formatter(record: "loguru.Record") -> str:
 
 # Define the logging formatter, removing the default one
 loguru.logger.remove(0)
-if not sys.stdout.isatty():
+if sys.stdout.isatty():
     # Simple logging for development
     loguru.logger.add(
         sys.stdout, format=development_formatter, diagnose=True,
