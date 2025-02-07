@@ -13,3 +13,5 @@ jobs:
       containerfile: Containerfile
       enable_linting: true
       enable_typechecking: true
+      tests_folder: tests
+
