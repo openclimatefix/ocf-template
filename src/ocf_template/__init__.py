@@ -13,7 +13,7 @@ def development_formatter(record: "loguru.Record") -> str:
         "<level>{level:<7s}</level> [{file}:{line}] | <level>{message}</level> ",
         "<green>{extra}</green>" if record["extra"] else "",
         "\n{exception}",
-        ))
+    ))
 
 def structured_formatter(record: "loguru.Record") -> str:
     """Format a log record as a structured JSON object."""
