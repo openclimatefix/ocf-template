@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 # Metadata (see https://peps.python.org/pep-0621/)
 [project]
-name = "ocf-python-project"
+name = "ocf-template"
 dynamic = ["version"] # Set automtically using git: https://setuptools-git-versioning.readthedocs.io/en/stable/
 description = "Consise summary of project"
 readme = {file = "README.md", content-type = "text/markdown"}
@@ -43,7 +43,7 @@ dev = [
 ocf-template-cli = "ocf_template.main:main"
 
 [project.urls]
-repository = "https://github.com/openclimatefix/ocf-python-template"
+repository = "https://github.com/openclimatefix/ocf-template"
 
 [tool.setuptools]
 include-package-data = false
