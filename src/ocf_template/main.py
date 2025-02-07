@@ -38,6 +38,7 @@ def main() -> None:
     log.info("Consider wrapping your main in a try/except block to handle exceptions gracefully")
     try:
         y: int = int(3 / 0)
+        log.warning("This will never be logged", y=y)
     except ZeroDivisionError as e:
         log.opt(exception=e).error("Caught exception")
 
