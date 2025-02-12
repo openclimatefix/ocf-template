@@ -10,7 +10,6 @@ jobs:
     uses: openclimatefix/.github/.github/workflows/nondefault_branch_push_ci_python.yml@main
     secrets: inherit
     with:
-      containerfile: Containerfile
       enable_linting: true
       enable_typechecking: true
       tests_folder: tests
