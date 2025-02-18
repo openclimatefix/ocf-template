@@ -66,6 +66,17 @@ plugins = [
     "numpy.typing.mypy_plugin",
 ]
 
+[[tool.mypy.overrides]]
+# Ignore missing imports for libraries that don't have them.
+# If they are ever made, remove from here!
+module = [
+    "fsspec",
+    "s3fs",
+    "zarr",
+]
+ignore_missing_imports = true
+
+
 # Ruff configuration
 # * See https://beta.ruff.rs/docs/
 [tool.ruff]
