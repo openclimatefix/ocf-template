@@ -4,6 +4,9 @@ on:
   push:
     branches-ignore: [ "main" ]
     paths-ignore: ['README.md']
+  pull_request:
+    types: ["opened", "reopened", "edited"]
+    paths-ignore: ["README.md"]
 
 jobs:
   branch-ci:
