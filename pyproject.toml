@@ -47,6 +47,7 @@ repository = "https://github.com/openclimatefix/ocf-template"
 
 [tool.setuptools]
 include-package-data = false
+license-files = [] # https://github.com/astral-sh/uv/issues/9513#issuecomment-2519527822
 
 [tool.setuptools-git-versioning]
 enabled = true
